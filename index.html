@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Пелюстка — романтичний магазин квітів і подарунків." />
+  <title>Пелюстка — Квіти та подарунки</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Сайт розроблено студенткою Лобановою Катериною, група ФЕМП 4-14 -->
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#hero">Пелюстка</a>
+      <nav class="main-nav" aria-label="Головне меню">
+        <a href="#hero">Головна</a>
+        <a href="#catalog">Каталог</a>
+        <a href="#cart">Обране</a>
+        <a href="#benefits">Переваги</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">романтичний онлайн-магазин</p>
+          <h1>Пелюстка</h1>
+          <p class="hero-subtitle">Квіти та подарунки для особливих моментів</p>
+          <p class="hero-description">
+            Обирайте ніжні букети, солодкі набори, м’які подарунки та святкові дрібниці
+            для побачення, дня народження, привітання або просто гарного настрою.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#catalog">Перейти до каталогу</a>
+            <a class="button secondary" href="#cart">Переглянути обране</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-badge">Ніжний дизайн</div>
+          <h2>9 товарів у каталозі</h2>
+          <p>Наведіть курсор на фото в каталозі — і побачите ще дві красиві світлини кожної позиції.</p>
+
+          <div class="mini-stats">
+            <div class="mini-stat">
+              <span class="mini-label">Категорії</span>
+              <strong>Квіти та подарунки</strong>
+            </div>
+            <div class="mini-stat">
+              <span class="mini-label">Стиль</span>
+              <strong>Ніжний та романтичний</strong>
+            </div>
+            <div class="mini-stat">
+              <span class="mini-label">Натхнення</span>
+              <strong>Для особливих моментів</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="catalog">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">каталог</p>
+          <h2>Квіти та подарунки</h2>
+          <p>Оберіть кілька позицій, щоб побачити список товарів, їхню кількість і загальну суму.</p>
+        </div>
+
+        <div class="product-grid">
+
+          <article class="product-card">
+            <div class="gallery-shell">
+              <div class="product-gallery" tabindex="0" aria-label="Букет троянд">
+                <img src="images/troiandy-left.jpg" alt="Букет троянд додаткове фото" class="gallery-photo side side-left" />
+                <img src="images/troiandy-main.jpg" alt="Букет троянд" class="gallery-photo main-photo" />
+                <img src="images/troiandy-right.jpg" alt="Букет троянд додаткове фото" class="gallery-photo side side-right" />
+              </div>
+            </div>
+            <div class="mobile-thumbs" aria-hidden="true">
+              <img src="images/troiandy-left.jpg" alt="" />
+              <img src="images/troiandy-main.jpg" alt="" />
+              <img src="images/troiandy-right.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Букет троянд</h3>
+              <p>Класичний романтичний букет у ніжних і насичених відтінках для особливого привітання.</p>
+              <div class="product-footer">
+                <span class="price">950 грн</span>
+                <button class="button primary select-btn" data-name="Букет троянд" data-price="950">Обрати</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="gallery-shell">
+              <div class="product-gallery" tabindex="0" aria-label="Букет тюльпанів">
+                <img src="images/tiulpany-left.jpg" alt="Букет тюльпанів додаткове фото" class="gallery-photo side side-left" />
+                <img src="images/tiulpany-main.jpg" alt="Букет тюльпанів" class="gallery-photo main-photo" />
+                <img src="images/tiulpany-right.jpg" alt="Букет тюльпанів додаткове фото" class="gallery-photo side side-right" />
+              </div>
+            </div>
+            <div class="mobile-thumbs" aria-hidden="true">
+              <img src="images/tiulpany-left.jpg" alt="" />
+              <img src="images/tiulpany-main.jpg" alt="" />
+              <img src="images/tiulpany-right.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Букет тюльпанів</h3>
+              <p>Легкий весняний букет, який дарує м’який настрій і святкову атмосферу.</p>
+              <div class="product-footer">
+                <span class="price">780 грн</span>
+                <button class="button primary select-btn" data-name="Букет тюльпанів" data-price="780">Обрати</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="gallery-shell">
+              <div class="product-gallery" tabindex="0" aria-label="М’яка іграшка">
+                <img src="images/igrashka-left.jpg" alt="М’яка іграшка додаткове фото" class="gallery-photo side side-left" />
+                <img src="images/igrashka-main.jpg" alt="М’яка іграшка" class="gallery-photo main-photo" />
+                <img src="images/igrashka-right.jpg" alt="М’яка іграшка додаткове фото" class="gallery-photo side side-right" />
+              </div>
+            </div>
+            <div class="mobile-thumbs" aria-hidden="true">
+              <img src="images/igrashka-left.jpg" alt="" />
+              <img src="images/igrashka-main.jpg" alt="" />
+              <img src="images/igrashka-right.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>М’яка іграшка</h3>
+              <p>Затишне доповнення до букета або солодкого подарунка для теплих емоцій.</p>
+              <div class="product-footer">
+                <span class="price">620 грн</span>
+                <button class="button primary select-btn" data-name="М’яка іграшка" data-price="620">Обрати</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="gallery-shell">
+              <div class="product-gallery" tabindex="0" aria-label="Полуниця в шоколаді">
+                <img src="images/polunytsia-left.jpg" alt="Полуниця в шоколаді додаткове фото" class="gallery-photo side side-left" />
+                <img src="images/polunytsia-main.jpg" alt="Полуниця в шоколаді" class="gallery-photo main-photo" />
+                <img src="images/polunytsia-right.jpg" alt="Полуниця в шоколаді додаткове фото" class="gallery-photo side side-right" />
+              </div>
+            </div>
+            <div class="mobile-thumbs" aria-hidden="true">
+              <img src="images/polunytsia-left.jpg" alt="" />
+              <img src="images/polunytsia-main.jpg" alt="" />
+              <img src="images/polunytsia-right.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Полуниця в шоколаді</h3>
+              <p>Ефектний солодкий подарунок, який красиво доповнює романтичний набір.</p>
+              <div class="product-footer">
+                <span class="price">690 грн</span>
+                <button class="button primary select-btn" data-name="Полуниця в шоколаді" data-price="690">Обрати</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="gallery-shell">
+              <div class="product-gallery" tabindex="0" aria-label="Листівка">
+                <img src="images/lystivka-left.jpg" alt="Листівка додаткове фото" class="gallery-photo side side-left" />
+                <img src="images/lystivka-main.jpg" alt="Листівка" class="gallery-photo main-photo" />
+                <img src="images/lystivka-right.jpg" alt="Листівка додаткове фото" class="gallery-photo side side-right" />
+              </div>
+            </div>
+            <div class="mobile-thumbs" aria-hidden="true">
+              <img src="images/lystivka-left.jpg" alt="" />
+              <img src="images/lystivka-main.jpg" alt="" />
+              <img src="images/lystivka-right.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Листівка</h3>
+              <p>Ніжна картка для теплих слів, побажань і маленького особистого акценту.</p>
+              <div class="product-footer">
+                <span class="price">120 грн</span>
+                <button class="button primary select-btn" data-name="Листівка" data-price="120">Обрати</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="gallery-shell">
+              <div class="product-gallery" tabindex="0" aria-label="Повітряні кульки">
+                <img src="images/kulky-left.jpg" alt="Повітряні кульки додаткове фото" class="gallery-photo side side-left" />
+                <img src="images/kulky-main.jpg" alt="Повітряні кульки" class="gallery-photo main-photo" />
+                <img src="images/kulky-right.jpg" alt="Повітряні кульки додаткове фото" class="gallery-photo side side-right" />
+              </div>
+            </div>
+            <div class="mobile-thumbs" aria-hidden="true">
+              <img src="images/kulky-left.jpg" alt="" />
+              <img src="images/kulky-main.jpg" alt="" />
+              <img src="images/kulky-right.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Повітряні кульки</h3>
+              <p>Святковий декор для сюрпризу, дня народження або красивого моменту.</p>
+              <div class="product-footer">
+                <span class="price">260 грн</span>
+                <button class="button primary select-btn" data-name="Повітряні кульки" data-price="260">Обрати</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="gallery-shell">
+              <div class="product-gallery" tabindex="0" aria-label="Букет гортензій">
+                <img src="images/hortenzii-left.jpg" alt="Букет гортензій додаткове фото" class="gallery-photo side side-left" />
+                <img src="images/hortenzii-main.jpg" alt="Букет гортензій" class="gallery-photo main-photo" />
+                <img src="images/hortenzii-right.jpg" alt="Букет гортензій додаткове фото" class="gallery-photo side side-right" />
+              </div>
+            </div>
+            <div class="mobile-thumbs" aria-hidden="true">
+              <img src="images/hortenzii-left.jpg" alt="" />
+              <img src="images/hortenzii-main.jpg" alt="" />
+              <img src="images/hortenzii-right.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Букет гортензій</h3>
+              <p>Пишний букет із м’якою пастельною палітрою для стильного ніжного подарунка.</p>
+              <div class="product-footer">
+                <span class="price">1100 грн</span>
+                <button class="button primary select-btn" data-name="Букет гортензій" data-price="1100">Обрати</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="gallery-shell">
+              <div class="product-gallery" tabindex="0" aria-label="Букет лілій">
+                <img src="images/lilii-left.jpg" alt="Букет лілій додаткове фото" class="gallery-photo side side-left" />
+                <img src="images/lilii-main.jpg" alt="Букет лілій" class="gallery-photo main-photo" />
+                <img src="images/lilii-right.jpg" alt="Букет лілій додаткове фото" class="gallery-photo side side-right" />
+              </div>
+            </div>
+            <div class="mobile-thumbs" aria-hidden="true">
+              <img src="images/lilii-left.jpg" alt="" />
+              <img src="images/lilii-main.jpg" alt="" />
+              <img src="images/lilii-right.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Букет лілій</h3>
+              <p>Вишукані лілії з виразним характером і елегантним, святковим виглядом.</p>
+              <div class="product-footer">
+                <span class="price">990 грн</span>
+                <button class="button primary select-btn" data-name="Букет лілій" data-price="990">Обрати</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="gallery-shell">
+              <div class="product-gallery" tabindex="0" aria-label="Букет рожевих гвоздик">
+                <img src="images/gvozdyky-left.jpg" alt="Букет рожевих гвоздик додаткове фото" class="gallery-photo side side-left" />
+                <img src="images/gvozdyky-main.jpg" alt="Букет рожевих гвоздик" class="gallery-photo main-photo" />
+                <img src="images/gvozdyky-right.jpg" alt="Букет рожевих гвоздик додаткове фото" class="gallery-photo side side-right" />
+              </div>
+            </div>
+            <div class="mobile-thumbs" aria-hidden="true">
+              <img src="images/gvozdyky-left.jpg" alt="" />
+              <img src="images/gvozdyky-main.jpg" alt="" />
+              <img src="images/gvozdyky-right.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Букет рожевих гвоздик</h3>
+              <p>Повітряна композиція у пастельних відтінках для легкого і щирого настрою.</p>
+              <div class="product-footer">
+                <span class="price">690 грн</span>
+                <button class="button primary select-btn" data-name="Букет рожевих гвоздик" data-price="690">Обрати</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="cart">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">обране</p>
+          <h2>Ваш вибір</h2>
+          <p>Тут автоматично відображаються товари, які ви обрали в каталозі.</p>
+        </div>
+
+        <div class="cart-layout">
+          <div class="cart-card">
+            <div class="cart-stats">
+              <div class="stat-box">
+                <span>Обрано товарів</span>
+                <strong id="item-count">0</strong>
+              </div>
+              <div class="stat-box">
+                <span>Загальна сума</span>
+                <strong id="total-price">0 грн</strong>
+              </div>
+            </div>
+
+            <div class="cart-list-wrap">
+              <h3>Список обраних товарів</h3>
+              <ul id="cart-list" class="cart-list">
+                <li class="empty-message">Кошик порожній. Додайте товари з каталогу.</li>
+              </ul>
+            </div>
+
+            <button class="button danger" id="clear-cart">Очистити вибір</button>
+          </div>
+
+          <aside class="cart-note">
+            <h3>Як це працює?</h3>
+            <p>Кожне натискання на кнопку <strong>«Обрати»</strong> додає товар до списку.</p>
+            <p>Один і той самий товар можна обирати кілька разів, щоб зібрати власний набір або подарункову композицію.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="benefits">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">переваги</p>
+          <h2>Чому обирають «Пелюстку»</h2>
+          <p>Ми поєднали ніжний стиль, романтичний настрій і зручний вибір товарів.</p>
+        </div>
+
+        <div class="benefits-grid">
+          <article class="benefit-card">
+            <h3>Красивий вибір</h3>
+            <p>У каталозі зібрані букети, солодкі набори, листівки, кульки та милі подарунки.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Більше фото</h3>
+            <p>У кожній картці є головне фото і ще дві додаткові світлини для кращого враження.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Зручне обране</h3>
+            <p>Після вибору товарів одразу видно кількість позицій, список і загальну суму замовлення.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Ніжна атмосфера</h3>
+            <p>Пастельна палітра й м’який дизайн створюють відчуття справжнього святкового магазину.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="contacts">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">контакти</p>
+          <h2>Для особливих моментів</h2>
+          <p>«Пелюстка» — простір квітів і подарунків, де легко зібрати ніжний набір для важливої події або приємного сюрпризу.</p>
+        </div>
+
+        <div class="contact-card">
+          <div>
+            <h3>Магазин «Пелюстка»</h3>
+            <p>Букети, солодкі подарунки та святкові дрібниці для теплих емоцій, щирих привітань і красивих моментів.</p>
+          </div>
+          <div class="contact-details">
+            <p><strong>Колекція:</strong> квіти та подарунки</p>
+            <p><strong>Стиль:</strong> ніжний та романтичний</p>
+            <p><strong>Настрій:</strong> для особливих моментів</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Сайт розроблено студенткою Лобановою Катериною, ФЕМП 4-14, 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
